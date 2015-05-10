@@ -1,13 +1,13 @@
 {
 	"manifest_version": 2,
-	"name": "Cloud To Butt",
+	"name": "Narcissisizor",
 	"version": "1.0",
-	"description": "Replaces the text 'the cloud' with 'my butt'.",
-	"content_scripts": 
+	"description": "Makes the whole internet all about you!",
+	"content_scripts":
 	[
 		{
 			"matches": ["*://*/*"],
-			"js": ["content_script.js"],
+			"js": ["jquery.min.js", "content_script.js", "frequency_lists.js"],
 			"run_at": "document_end"
 		}
 	]
