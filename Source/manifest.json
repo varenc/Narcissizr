@@ -1,6 +1,6 @@
 {
 	"manifest_version": 2,
-	"name": "Narcissisizor",
+	"name": "Narcissizr",
 	"version": "1.0",
 	"description": "Makes the whole internet all about you!",
 	"content_scripts":
