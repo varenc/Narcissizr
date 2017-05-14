@@ -3,19 +3,9 @@
     "name": "Narcissizr",
     "version": "1.0",
     "description": "Makes the whole internet all about you!",
-    // "content_scripts":
-    // [
-    //  {
-    //      "matches": ["*://*/*"],
-    //      "js": ["jquery.min.js", "content_script.js", "frequency_lists.js"],
-    //      "run_at": "document_end"
-    //  }
-    // ],
     "browser_action": {
         "default_icon": "icon.png",
-        //"default_popup": "popup.html",
-        "default_title": "Narcissiz!"
-
+        "default_title": "Narcissiz this"
     },
     "background": {
         "scripts": ["background.js"],
@@ -23,6 +13,5 @@
     },
     "permissions": ["activeTab", "*://*/*", "storage"],
     "options_page": "options.html"
-
 }
 
